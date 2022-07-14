@@ -9,6 +9,13 @@ HINT: The Questions Are Purple the Errors are in Red :)
 + 1. How to change colors in Readme.md files?
 
 # you can use ```diff tag in your readme file also check the text of this read me file you will understand :)
+
++ 2. Installing and Uninstalling powershell`s packages?
+
+Below you can see an example of installing Azure-modules for powershell 
+
+# Install-Module -Name Az -Repository PSGallery -Force -AllowClobber
+# Uninstall-Module -Name Az 
 ```
 
 
@@ -21,3 +28,5 @@ HINT: The Questions Are Purple the Errors are in Red :)
 # Run the Script below
 # Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
+
+
