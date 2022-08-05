@@ -16,6 +16,9 @@ Below you can see an example of installing Azure-modules for powershell
 
 # Install-Module -Name Az -Repository PSGallery -Force -AllowClobber
 # Uninstall-Module -Name Az 
+
++3. Run RabbitMQ command:
+# docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 ```
 
 
